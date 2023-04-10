@@ -28,7 +28,7 @@ app.get('/app/rpsls', (req, res) => {
 
 
 app.get('/app/rps/play', (req, res) => {
-	res.status(200).send(Playrps(req.query.shot));
+	res.status(200).send(PlayRps(req.query.shot));
 });
 
 app.get('/app/rpsls/play', (req, res) => {
